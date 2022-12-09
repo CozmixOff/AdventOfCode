@@ -1,4 +1,4 @@
-f = open('day 2/values.txt','r')
+f = open('2022/day 2/values.txt','r')
 file = f.read()
 values = file.split('\n')
 score = 0

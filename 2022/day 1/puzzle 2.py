@@ -1,4 +1,4 @@
-f = open('day 1/values.txt','r')
+f = open('2022/day 1/values.txt','r')
 file = f.read()
 values = file.split('\n')
 most,second,third,sum = (0,0,0,0)
