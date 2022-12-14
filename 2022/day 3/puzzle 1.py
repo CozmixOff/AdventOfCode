@@ -21,6 +21,5 @@ for i in range (len(values)):
 
 for i in range (len(doubles)):
     score += dict.index(doubles[i]) + 1
-    print (dict.index(doubles[i]),doubles[i])
 
 print (score)
