@@ -15,8 +15,8 @@ for i in range (len(values)):
         ensemble1.append(j)
     for j in range (int(toanalyze[2]),int(toanalyze[3])+1):
         ensemble2.append(j)
-    if int(toanalyze[0]) in ensemble2 and int(toanalyze[1]) in ensemble2:
-        score += 1
-    elif int(toanalyze[2]) in ensemble1 and int(toanalyze[3]) in ensemble1:
-        score += 1
+    for i in range (len(ensemble1)):
+        if ensemble1[i] in ensemble2:
+            score += 1
+            break
 print(score)
